@@ -1,0 +1,34 @@
+
+
+.lebar {
+    height: fit-content;
+}
+
+.merah {
+    background: black;
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+.it{
+    background-color: red;
+    height: 2px;
+    width: 50px;
+}
+
+.card-title{
+    font-size: 20px;
+}
