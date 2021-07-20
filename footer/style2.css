@@ -1,6 +1,6 @@
 footer{
     
-    height: 700px;
+    height: 350px;
     background-color: black;
 }
 h5{
@@ -8,6 +8,6 @@ h5{
     color:white;
 
 }
-li a{
+.list-link li a{
     color: #808080;
-}
+} 

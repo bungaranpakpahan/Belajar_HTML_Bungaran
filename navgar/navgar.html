@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="../footer/style2.css">
 <style>
-ul {
+.ul-navgar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,16 +11,16 @@ ul {
     background-color: #333;
 	}
 
-li {
+.ul-navgar li {
     float: left;
     border-right:1px solid #bbb;
 }
 
-li:last-child {
+.ul-navgar li:last-child {
     border-right: none;
 }
 
-li a {
+.ul-navgar li a {
     display: block;
     color: white;
     text-align: center;
@@ -27,7 +28,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.ul-navgar li a:hover:not(.active) {
     background-color: #111;
 }
 
@@ -46,7 +47,8 @@ li a:hover:not(.active) {
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 <body>
-<ul>
+<ul class="ul-navgar"> 
+  
   <li><a class="active2" href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
@@ -73,6 +75,78 @@ li a:hover:not(.active) {
     <span class="sr-only">Next</span>
   </a>
 </div>
+<footer class="py-5">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-2">
+              <h2 class="text-white">ENVOY</h2>
+                      <p class="text-secondary">
+                          We create possibilites
+                          for the connected world<br>
+                          <b class="text-white">Be Bold</b>
+                      </p>
+                      
+              </div>
+              <div class="col-md-2">
+                  <h5 class="text-white"> Explore</h5>
+                  <ul class="list-unstyled list-link">
+                      <li><a href="">Home</a></li>
+                      <li><a href="">About</a></li>
+                      <li><a href="">Capabilites</a></li>
+                      <li><a href="">Caraes</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-2">
+                  <h5 class="text-white"> Visit</h5>
+                  <ul class="list-unstyled list-link">
+                      <li><a href="">Envory So.California</a></li>
+                      <li><a href="">34 Tesla,Ste 100</a></li>
+                      <li><a href="">Irvine,Ca,USA 92618</a></li><br>
+
+                      <h5 class="text-white"> New Business</h5>
+                      <ul class="list-unstyled list-link">
+                          <li><a href="">engage@weareenvoy.com</a></li>
+                          <li><a href="">949 333 3106</a></li>
+
+                      
+                  </ul>
+              </div>
+              <div class="col-md-2">
+                  <h5 class="text-white"> Follow</h5>
+                  <ul class="list-unstyled list-link">
+                      <li><a href="">Instargram</a></li>
+                      <li><a href="">twitter</a></li>
+                      <li><a href="">Linkedlin</a></li>
+                      
+                  </ul>
+              </div>
+              <div class="col-md-2">
+                  <h5 class="text-white"> Legal</h5>
+                  <ul class="list-unstyled list-link">
+                      <li><a href="">Terms</a></li>
+                      <li><a href="">Privacy</a></li>
+                      
+                  </ul>
+              </div>
+              <div class="col-md-2">
+                  <h5 class="text-white"> Next : About</h5>
+                  
+              </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <p class="text-secondary"><br>
+                  &copy; 2020 Envoy. All Rights Reserved.
+              </p>
+
+          </div>
+      </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
 
 </body>
 </html>
